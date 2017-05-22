@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 __description__ = \
 """
 Base class for allowing connections between arduino and PyCmdMessenger instances
@@ -7,7 +9,6 @@ __author__ = "Michael J. Harms"
 __date__ = "2016-05-30"
 
 import serial, time
-from __future__ import print_function
 
 class ArduinoBoard:
     """
